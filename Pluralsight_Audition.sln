@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Shared", "Business.Shared\Business.Shared.csproj", "{99898811-927E-4B3B-BE91-C61A74E08EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Blazor.Server.UI.Lamar", "Customer.Blazor.Server.UI.Lamar\Customer.Blazor.Server.UI.Lamar.csproj", "{F41F03A6-5F8E-4D55-882E-1A9CCDAB367C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99898811-927E-4B3B-BE91-C61A74E08EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99898811-927E-4B3B-BE91-C61A74E08EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99898811-927E-4B3B-BE91-C61A74E08EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99898811-927E-4B3B-BE91-C61A74E08EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41F03A6-5F8E-4D55-882E-1A9CCDAB367C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41F03A6-5F8E-4D55-882E-1A9CCDAB367C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41F03A6-5F8E-4D55-882E-1A9CCDAB367C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41F03A6-5F8E-4D55-882E-1A9CCDAB367C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39E53FE2-78C4-49AA-9B96-18CC2731F0AF}
+	EndGlobalSection
+EndGlobal

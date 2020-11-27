@@ -1,0 +1,23 @@
+﻿@page "/carlist"
+
+<h3>Car List Example</h3>
+<br />
+The Car List Component currently uses the CarRepository and CarDataAccess implementations to display the Car list. The CarDataAccess
+uses a list of Cars depending on if "US" or "Europe" is passed into it.  Currently it uses "US" which is stored within the 'appsettings.json' file.
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    @foreach (var car in cars)
+    {
+        <tr>
+            <td>@car.Make</td>
+            <td>@car.Model</td>
+        </tr>
+    }
+</table>
+

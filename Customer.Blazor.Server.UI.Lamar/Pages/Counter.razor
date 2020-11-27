@@ -1,0 +1,14 @@
+﻿@page "/counter"
+
+<h3>Site Counter - Singleton</h3>
+<br />
+This site counter component has been enhanced to use a Singleton to store the Counter.  It will retain its value and increase by 1 each time you select the 'Click me' button.  
+This value will be retained if you leave the component and then come back.
+
+<br />
+<br />
+<p>Current count: @SiteCounter.GetCounter()</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<br />
+

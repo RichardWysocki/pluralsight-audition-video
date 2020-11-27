@@ -1,0 +1,46 @@
+﻿@page "/ClientInformation"
+
+<h3>Add New Client Information - Validator Rules Example</h3>
+<br />
+This add new Client Information component runs rules to validate a valid Name & Address is provided. There are currently three rules within the Business.Shared class library.
+<br />
+<EditForm Model="@clientModel" OnSubmit="@HandleValidSubmitAsync">
+    <p>
+        <label>
+            Name:<br>
+            <InputText @bind-Value="clientModel.Name" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Address 1:<br>
+            <InputText @bind-Value="clientModel.Address1" />
+        </label>
+    </p>
+    <p>
+        <label>
+            City:<br>
+            <InputText @bind-Value="clientModel.City" />
+        </label>
+    </p>
+    <p>
+        <label>
+            State:<br>
+            <InputText @bind-Value="clientModel.State" />
+        </label>
+    </p>
+    <p>
+        <label>
+            Zip:<br>
+            <InputText @bind-Value="clientModel.Zip" />
+        </label>
+    </p>
+    <button type="submit">Submit</button>
+
+    <p style="@messageStyles">
+        @((MarkupString)message)
+    </p>
+</EditForm>
+
+
+
